@@ -1,0 +1,20 @@
+#dice program
+
+# -------------------------
+# Import libraries
+# -------------------------
+import random
+
+
+# -------------------------
+# Subprograms
+# -------------------------
+def roll_dice(faces):
+    return random.randint(1, faces)
+
+
+# -------------------------
+# Main program
+# -------------------------
+faces = int(input("Choose how many sides for your dice: "))
+number = roll_dice(faces)
