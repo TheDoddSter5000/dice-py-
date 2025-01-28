@@ -18,3 +18,4 @@ def roll_dice(faces):
 # -------------------------
 faces = int(input("Choose how many sides for your dice: "))
 number = roll_dice(faces)
+print("you rolled a", number)
